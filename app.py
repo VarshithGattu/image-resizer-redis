@@ -79,14 +79,11 @@ def upload_file():
                 return "Invalid dimensions submitted.", 400
 
             # 4. Enqueue the job with Retry configuration (max 3 tries, 10-second interval)
-            job = queue.enqueue(
-                resize_image, 
-                input_path, 
-                width, 
-                height,
-                result_ttl=86400,
-                retry=Retry(max=3, interval=10) 
-            )
+            output_path = resize_image(input_path, width, height)
+            return render_template("status.html",
+                                    job_id="completed",
+                                    status="finished",
+                                    result_path=output_path)
 
             # Redirect to a page that shows the job status
             return redirect(url_for('job_status', job_id=job.id))
