@@ -1,9 +1,10 @@
 # config.py - Contains system-wide configuration settings
 
-# Redis configuration (default for local installation/WSL)
-REDIS_HOST = 'localhost'
-REDIS_PORT = 6379
-REDIS_URL = f'redis://{REDIS_HOST}:{REDIS_PORT}'
+import os
+
+# Redis configuration
+# Use Render Redis if available, otherwise fallback to localhost for local testing
+REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379")
 
 # RQ Queue Name
 QUEUE_NAME = 'image_tasks'
