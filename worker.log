@@ -1,0 +1,633 @@
+2025-11-25 20:50:26,972 - __main__ - INFO - Worker starting (Windows Mode), listening to queues: ['image_tasks']
+2025-11-25 20:50:26,975 - rq.worker - INFO - Worker a4d03d1fdf1146eb9b7d99ae13288b1d: started with PID 1124, version 2.6.1
+2025-11-25 20:50:26,975 - rq.worker - INFO - Worker a4d03d1fdf1146eb9b7d99ae13288b1d: subscribing to channel rq:pubsub:a4d03d1fdf1146eb9b7d99ae13288b1d
+2025-11-25 20:50:27,005 - rq.worker - INFO - *** Listening on [32mimage_tasks[39;49;00m...
+2025-11-25 20:50:27,010 - rq.worker - INFO - Worker a4d03d1fdf1146eb9b7d99ae13288b1d: cleaning registries for queue: image_tasks
+2025-11-25 20:50:27,021 - rq.registry - WARNING - StartedJobRegistry cleanup: eb771f50-8825-411e-9087-eb9a7294d583 Moved to FailedJobRegistry, due to AbandonedJobError, at 2025-11-25 15:20:27.021455+00:00
+2025-11-25 20:51:03,112 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1764084063_Screenshot_2024-08-26_201351.png', 400, 300)[39;49;00m (76b4af2e-8de1-4bf3-93cd-a4660cbd75e1)
+2025-11-25 20:51:03,115 - rq.worker - ERROR - Worker a4d03d1fdf1146eb9b7d99ae13288b1d: found an unhandled exception, quitting...
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 607, in work
+    self.execute_job(job, queue)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1695, in execute_job
+    self.fork_work_horse(job, queue)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1602, in fork_work_horse
+    child_pid = os.fork()
+                ^^^^^^^
+AttributeError: module 'os' has no attribute 'fork'
+2025-11-25 20:51:03,117 - rq.worker - INFO - Worker a4d03d1fdf1146eb9b7d99ae13288b1d: unsubscribing from channel rq:pubsub:a4d03d1fdf1146eb9b7d99ae13288b1d
+2025-11-25 20:52:33,606 - __main__ - INFO - Worker starting (Windows Mode), listening to queues: ['image_tasks']
+2025-11-25 20:52:33,608 - rq.worker - INFO - Worker 5614bb7d28bb4038a06425505ae85fc2: started with PID 21584, version 2.6.1
+2025-11-25 20:52:33,608 - rq.worker - INFO - Worker 5614bb7d28bb4038a06425505ae85fc2: subscribing to channel rq:pubsub:5614bb7d28bb4038a06425505ae85fc2
+2025-11-25 20:52:33,637 - rq.worker - INFO - *** Listening on [32mimage_tasks[39;49;00m...
+2025-11-25 20:52:33,639 - rq.worker - INFO - Worker 5614bb7d28bb4038a06425505ae85fc2: cleaning registries for queue: image_tasks
+2025-11-25 20:52:33,650 - rq.registry - WARNING - StartedJobRegistry cleanup: 76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 Moved to FailedJobRegistry, due to AbandonedJobError, at 2025-11-25 15:22:33.650419+00:00
+2025-11-25 20:52:58,190 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1764084178_Screenshot_2024-08-26_201351.png', 400, 300)[39;49;00m (6968d2a0-d413-4f7b-ada0-499a56a0caef)
+2025-11-25 20:52:58,195 - rq.worker - ERROR - Worker 5614bb7d28bb4038a06425505ae85fc2: found an unhandled exception, quitting...
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 607, in work
+    self.execute_job(job, queue)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1695, in execute_job
+    self.fork_work_horse(job, queue)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1602, in fork_work_horse
+    child_pid = os.fork()
+                ^^^^^^^
+AttributeError: module 'os' has no attribute 'fork'
+2025-11-25 20:52:58,200 - rq.worker - INFO - Worker 5614bb7d28bb4038a06425505ae85fc2: unsubscribing from channel rq:pubsub:5614bb7d28bb4038a06425505ae85fc2
+2025-11-25 21:08:08,668 - __main__ - INFO - Worker starting (Windows Native Mode), listening to queues: ['image_tasks']
+2025-11-25 21:08:08,669 - rq.worker - INFO - Worker 9533c86d446a46bc8ec10cc4af9cbc76: started with PID 13736, version 2.6.1
+2025-11-25 21:08:08,669 - rq.worker - INFO - Worker 9533c86d446a46bc8ec10cc4af9cbc76: subscribing to channel rq:pubsub:9533c86d446a46bc8ec10cc4af9cbc76
+2025-11-25 21:08:08,674 - rq.worker - INFO - *** Listening on [32mimage_tasks[39;49;00m...
+2025-11-25 21:08:08,675 - rq.worker - INFO - Worker 9533c86d446a46bc8ec10cc4af9cbc76: cleaning registries for queue: image_tasks
+2025-11-25 21:08:08,681 - rq.registry - WARNING - StartedJobRegistry cleanup: 6968d2a0-d413-4f7b-ada0-499a56a0caef Moved to FailedJobRegistry, due to AbandonedJobError, at 2025-11-25 15:38:08.681640+00:00
+2025-11-25 21:08:25,966 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1764085105_Screenshot_2024-08-26_201351.png', 400, 300)[39;49;00m (dd6bce63-aff4-4a73-80de-8ceae991b534)
+2025-11-25 21:08:26,037 - rq.worker - ERROR - Worker 9533c86d446a46bc8ec10cc4af9cbc76: job dd6bce63-aff4-4a73-80de-8ceae991b534: exception raised while executing (tasks.resize_image)
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1439, in perform_job
+    return_value = job.perform()
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1318, in perform
+    self._result = self._execute()
+                   ~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1376, in _execute
+    result = self.func(*self.args, **self.kwargs)
+TypeError: resize_image() missing 1 required positional argument: 'job_id'
+
+2025-11-25 21:13:20,482 - __main__ - INFO - Worker starting (Windows Native Mode), listening to queues: ['image_tasks']
+2025-11-25 21:13:20,484 - rq.worker - INFO - Worker dc51a8af95fc452faec033538cade517: started with PID 30244, version 2.6.1
+2025-11-25 21:13:20,484 - rq.worker - INFO - Worker dc51a8af95fc452faec033538cade517: subscribing to channel rq:pubsub:dc51a8af95fc452faec033538cade517
+2025-11-25 21:13:20,514 - rq.worker - INFO - *** Listening on [32mimage_tasks[39;49;00m...
+2025-11-25 21:13:20,518 - rq.worker - INFO - Worker dc51a8af95fc452faec033538cade517: cleaning registries for queue: image_tasks
+2025-11-25 21:13:52,842 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1764085432_Screenshot_2024-08-26_201351.png', 400, 300)[39;49;00m (bcf907b8-92dd-4bd8-a8fe-7a4b193dd754)
+2025-11-25 21:13:52,918 - rq.worker - ERROR - Worker dc51a8af95fc452faec033538cade517: job bcf907b8-92dd-4bd8-a8fe-7a4b193dd754: exception raised while executing (tasks.resize_image)
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1439, in perform_job
+    return_value = job.perform()
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1318, in perform
+    self._result = self._execute()
+                   ~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1376, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "D:\Varshith\SRU\Assignments\SEM 3\image-resizer-project\tasks.py", line 38, in resize_image
+    raise TemporaryResizeError("Simulated temporary network/resource issue.")
+tasks.TemporaryResizeError: Simulated temporary network/resource issue.
+
+2025-11-25 21:18:22,705 - __main__ - INFO - Worker starting (Windows Native Mode), listening to queues: ['image_tasks']
+2025-11-25 21:18:22,708 - rq.worker - INFO - Worker af69d14ae55f46b08690ac1a606acee3: started with PID 29384, version 2.6.1
+2025-11-25 21:18:22,711 - rq.worker - INFO - Worker af69d14ae55f46b08690ac1a606acee3: subscribing to channel rq:pubsub:af69d14ae55f46b08690ac1a606acee3
+2025-11-25 21:18:22,741 - rq.worker - INFO - *** Listening on [32mimage_tasks[39;49;00m...
+2025-11-25 21:18:22,745 - rq.worker - INFO - Worker af69d14ae55f46b08690ac1a606acee3: cleaning registries for queue: image_tasks
+2025-11-25 21:18:43,767 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1764085723_Screenshot_2025-08-26_162411.png', 400, 300)[39;49;00m (d26674e0-d671-4883-96aa-5c7d5860c359)
+2025-11-25 21:18:43,821 - rq.worker - ERROR - Worker af69d14ae55f46b08690ac1a606acee3: job d26674e0-d671-4883-96aa-5c7d5860c359: exception raised while executing (tasks.resize_image)
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1439, in perform_job
+    return_value = job.perform()
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1318, in perform
+    self._result = self._execute()
+                   ~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1376, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "D:\Varshith\SRU\Assignments\SEM 3\image-resizer-project\tasks.py", line 38, in resize_image
+    raise TemporaryResizeError("Simulated temporary network/resource issue.")
+tasks.TemporaryResizeError: Simulated temporary network/resource issue.
+
+2025-11-25 21:22:19,355 - __main__ - INFO - Worker starting (Windows Native Mode), listening to queues: ['image_tasks']
+2025-11-25 21:22:19,357 - rq.worker - INFO - Worker 4dc582c98c5a4209af0d7ea7f98c342a: started with PID 15128, version 2.6.1
+2025-11-25 21:22:19,357 - rq.worker - INFO - Worker 4dc582c98c5a4209af0d7ea7f98c342a: subscribing to channel rq:pubsub:4dc582c98c5a4209af0d7ea7f98c342a
+2025-11-25 21:22:19,362 - rq.worker - INFO - *** Listening on [32mimage_tasks[39;49;00m...
+2025-11-25 21:22:19,364 - rq.worker - INFO - Worker 4dc582c98c5a4209af0d7ea7f98c342a: cleaning registries for queue: image_tasks
+2025-11-25 21:22:46,996 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1764085966_Screenshot_2025-08-26_162348.png', 400, 300)[39;49;00m (550fc028-7586-44f4-a912-f2ee4c07f05b)
+2025-11-25 21:22:47,053 - rq.worker - ERROR - Worker 4dc582c98c5a4209af0d7ea7f98c342a: job 550fc028-7586-44f4-a912-f2ee4c07f05b: exception raised while executing (tasks.resize_image)
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1439, in perform_job
+    return_value = job.perform()
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1318, in perform
+    self._result = self._execute()
+                   ~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1376, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "D:\Varshith\SRU\Assignments\SEM 3\image-resizer-project\tasks.py", line 38, in resize_image
+    raise TemporaryResizeError("Simulated temporary network/resource issue.")
+tasks.TemporaryResizeError: Simulated temporary network/resource issue.
+
+2025-11-25 21:25:06,239 - __main__ - INFO - Worker starting (Windows Native Mode), listening to queues: ['image_tasks']
+2025-11-25 21:25:06,243 - rq.worker - INFO - Worker e231a617256b441c99126fffc57e60a8: started with PID 28036, version 2.6.1
+2025-11-25 21:25:06,243 - rq.worker - INFO - Worker e231a617256b441c99126fffc57e60a8: subscribing to channel rq:pubsub:e231a617256b441c99126fffc57e60a8
+2025-11-25 21:25:06,265 - rq.worker - INFO - *** Listening on [32mimage_tasks[39;49;00m...
+2025-11-25 21:25:06,267 - rq.worker - INFO - Worker e231a617256b441c99126fffc57e60a8: cleaning registries for queue: image_tasks
+2025-11-25 21:25:32,437 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1764086132_Screenshot_2025-08-26_162411.png', 400, 300)[39;49;00m (8986b4e6-0891-43f4-b95f-a671c2a1d408)
+2025-11-25 21:25:32,490 - rq.worker - ERROR - Worker e231a617256b441c99126fffc57e60a8: job 8986b4e6-0891-43f4-b95f-a671c2a1d408: exception raised while executing (tasks.resize_image)
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1439, in perform_job
+    return_value = job.perform()
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1318, in perform
+    self._result = self._execute()
+                   ~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1376, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "D:\Varshith\SRU\Assignments\SEM 3\image-resizer-project\tasks.py", line 38, in resize_image
+    raise TemporaryResizeError("Simulated temporary network/resource issue.")
+tasks.TemporaryResizeError: Simulated temporary network/resource issue.
+
+2025-11-25 21:30:40,605 - __main__ - INFO - Worker starting (Windows Native Mode), listening to queues: ['image_tasks']
+2025-11-25 21:30:40,607 - rq.worker - INFO - Worker 21908a6a23b244cca7fd7356f0e27031: started with PID 32368, version 2.6.1
+2025-11-25 21:30:40,607 - rq.worker - INFO - Worker 21908a6a23b244cca7fd7356f0e27031: subscribing to channel rq:pubsub:21908a6a23b244cca7fd7356f0e27031
+2025-11-25 21:30:40,612 - rq.worker - INFO - *** Listening on [32mimage_tasks[39;49;00m...
+2025-11-25 21:30:40,616 - rq.scheduler - INFO - Acquired scheduler lock for image_tasks
+2025-11-25 21:30:40,690 - rq.worker - INFO - Worker 21908a6a23b244cca7fd7356f0e27031: cleaning registries for queue: image_tasks
+2025-11-25 21:30:41,051 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1764086132_Screenshot_2025-08-26_162411.png', 400, 300)[39;49;00m (8986b4e6-0891-43f4-b95f-a671c2a1d408)
+2025-11-25 21:30:41,276 - rq.worker - INFO - Successfully completed tasks.resize_image('images\\original_1764086132_Screenshot_2025-08-26_162411.png', 400, 300) job in 0:00:00.214797s on worker 21908a6a23b244cca7fd7356f0e27031
+2025-11-25 21:30:41,276 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mJob OK[39;49;00m (8986b4e6-0891-43f4-b95f-a671c2a1d408)
+2025-11-25 21:30:41,277 - rq.worker - INFO - Result is kept for 86400 seconds
+2025-11-25 21:31:05,444 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1764086465_Screenshot_2024-08-26_201351.png', 400, 300)[39;49;00m (e232d75a-35a7-4355-a526-49a6609e2a79)
+2025-11-25 21:31:05,467 - rq.worker - ERROR - Worker 21908a6a23b244cca7fd7356f0e27031: job e232d75a-35a7-4355-a526-49a6609e2a79: exception raised while executing (tasks.resize_image)
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1439, in perform_job
+    return_value = job.perform()
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1318, in perform
+    self._result = self._execute()
+                   ~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1376, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "D:\Varshith\SRU\Assignments\SEM 3\image-resizer-project\tasks.py", line 38, in resize_image
+    raise TemporaryResizeError("Simulated temporary network/resource issue.")
+tasks.TemporaryResizeError: Simulated temporary network/resource issue.
+
+2025-11-25 21:31:15,173 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1764086465_Screenshot_2024-08-26_201351.png', 400, 300)[39;49;00m (e232d75a-35a7-4355-a526-49a6609e2a79)
+2025-11-25 21:31:15,227 - rq.worker - INFO - Successfully completed tasks.resize_image('images\\original_1764086465_Screenshot_2024-08-26_201351.png', 400, 300) job in 0:00:00.040286s on worker 21908a6a23b244cca7fd7356f0e27031
+2025-11-25 21:31:15,227 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mJob OK[39;49;00m (e232d75a-35a7-4355-a526-49a6609e2a79)
+2025-11-25 21:31:15,228 - rq.worker - INFO - Result is kept for 86400 seconds
+2025-11-25 21:32:45,271 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1764086565_Screenshot_2024-08-26_201351.png', 50, 50)[39;49;00m (ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6)
+2025-11-25 21:32:45,298 - rq.worker - ERROR - Worker 21908a6a23b244cca7fd7356f0e27031: job ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6: exception raised while executing (tasks.resize_image)
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1439, in perform_job
+    return_value = job.perform()
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1318, in perform
+    self._result = self._execute()
+                   ~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1376, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "D:\Varshith\SRU\Assignments\SEM 3\image-resizer-project\tasks.py", line 38, in resize_image
+    raise TemporaryResizeError("Simulated temporary network/resource issue.")
+tasks.TemporaryResizeError: Simulated temporary network/resource issue.
+
+2025-11-25 21:32:55,559 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1764086565_Screenshot_2024-08-26_201351.png', 50, 50)[39;49;00m (ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6)
+2025-11-25 21:32:55,612 - rq.worker - INFO - Successfully completed tasks.resize_image('images\\original_1764086565_Screenshot_2024-08-26_201351.png', 50, 50) job in 0:00:00.039872s on worker 21908a6a23b244cca7fd7356f0e27031
+2025-11-25 21:32:55,612 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mJob OK[39;49;00m (ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6)
+2025-11-25 21:32:55,613 - rq.worker - INFO - Result is kept for 86400 seconds
+2025-11-25 21:36:55,455 - __main__ - INFO - Worker starting (Windows Native Mode), listening to queues: ['image_tasks']
+2025-11-25 21:36:55,456 - rq.worker - INFO - Worker e43b53091d5546c98fed72b7d29b9844: started with PID 1100, version 2.6.1
+2025-11-25 21:36:55,457 - rq.worker - INFO - Worker e43b53091d5546c98fed72b7d29b9844: subscribing to channel rq:pubsub:e43b53091d5546c98fed72b7d29b9844
+2025-11-25 21:36:55,462 - rq.worker - INFO - *** Listening on [32mimage_tasks[39;49;00m...
+2025-11-25 21:36:55,466 - rq.scheduler - INFO - Acquired scheduler lock for image_tasks
+2025-11-25 21:36:55,480 - rq.worker - INFO - Worker e43b53091d5546c98fed72b7d29b9844: cleaning registries for queue: image_tasks
+2025-11-25 21:37:39,993 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1764086859_WIN_20250826_16_27_26_Pro.jpg', 1080, 1080)[39;49;00m (e1d7ba66-cd38-4ee7-b178-53d39bceccf6)
+2025-11-25 21:37:40,063 - rq.worker - ERROR - Worker e43b53091d5546c98fed72b7d29b9844: job e1d7ba66-cd38-4ee7-b178-53d39bceccf6: exception raised while executing (tasks.resize_image)
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1439, in perform_job
+    return_value = job.perform()
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1318, in perform
+    self._result = self._execute()
+                   ~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1376, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "D:\Varshith\SRU\Assignments\SEM 3\image-resizer-project\tasks.py", line 38, in resize_image
+    raise TemporaryResizeError("Simulated temporary network/resource issue.")
+tasks.TemporaryResizeError: Simulated temporary network/resource issue.
+
+2025-11-25 21:37:50,979 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1764086859_WIN_20250826_16_27_26_Pro.jpg', 1080, 1080)[39;49;00m (e1d7ba66-cd38-4ee7-b178-53d39bceccf6)
+2025-11-25 21:37:51,143 - rq.worker - INFO - Successfully completed tasks.resize_image('images\\original_1764086859_WIN_20250826_16_27_26_Pro.jpg', 1080, 1080) job in 0:00:00.151362s on worker e43b53091d5546c98fed72b7d29b9844
+2025-11-25 21:37:51,144 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mJob OK[39;49;00m (e1d7ba66-cd38-4ee7-b178-53d39bceccf6)
+2025-11-25 21:37:51,145 - rq.worker - INFO - Result is kept for 86400 seconds
+2025-11-25 21:40:16,647 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1764087016_4k_Img.jpg', 400, 300)[39;49;00m (8f59fb52-76c4-49e8-b856-ceaec0b76723)
+2025-11-25 21:40:16,665 - rq.worker - ERROR - Worker e43b53091d5546c98fed72b7d29b9844: job 8f59fb52-76c4-49e8-b856-ceaec0b76723: exception raised while executing (tasks.resize_image)
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1439, in perform_job
+    return_value = job.perform()
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1318, in perform
+    self._result = self._execute()
+                   ~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1376, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "D:\Varshith\SRU\Assignments\SEM 3\image-resizer-project\tasks.py", line 38, in resize_image
+    raise TemporaryResizeError("Simulated temporary network/resource issue.")
+tasks.TemporaryResizeError: Simulated temporary network/resource issue.
+
+2025-11-25 21:40:26,551 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1764087016_4k_Img.jpg', 400, 300)[39;49;00m (8f59fb52-76c4-49e8-b856-ceaec0b76723)
+2025-11-25 21:40:26,863 - rq.worker - INFO - Successfully completed tasks.resize_image('images\\original_1764087016_4k_Img.jpg', 400, 300) job in 0:00:00.299853s on worker e43b53091d5546c98fed72b7d29b9844
+2025-11-25 21:40:26,864 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mJob OK[39;49;00m (8f59fb52-76c4-49e8-b856-ceaec0b76723)
+2025-11-25 21:40:26,864 - rq.worker - INFO - Result is kept for 86400 seconds
+2025-11-25 21:41:43,841 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1764087103_4k_Img.jpg', 1920, 1080)[39;49;00m (e6570416-69dd-4a26-93be-d081dcf4aee0)
+2025-11-25 21:41:43,852 - rq.worker - ERROR - Worker e43b53091d5546c98fed72b7d29b9844: job e6570416-69dd-4a26-93be-d081dcf4aee0: exception raised while executing (tasks.resize_image)
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1439, in perform_job
+    return_value = job.perform()
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1318, in perform
+    self._result = self._execute()
+                   ~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1376, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "D:\Varshith\SRU\Assignments\SEM 3\image-resizer-project\tasks.py", line 38, in resize_image
+    raise TemporaryResizeError("Simulated temporary network/resource issue.")
+tasks.TemporaryResizeError: Simulated temporary network/resource issue.
+
+2025-11-25 21:41:53,875 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1764087103_4k_Img.jpg', 1920, 1080)[39;49;00m (e6570416-69dd-4a26-93be-d081dcf4aee0)
+2025-11-25 21:41:54,620 - rq.worker - INFO - Successfully completed tasks.resize_image('images\\original_1764087103_4k_Img.jpg', 1920, 1080) job in 0:00:00.734731s on worker e43b53091d5546c98fed72b7d29b9844
+2025-11-25 21:41:54,620 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mJob OK[39;49;00m (e6570416-69dd-4a26-93be-d081dcf4aee0)
+2025-11-25 21:41:54,621 - rq.worker - INFO - Result is kept for 86400 seconds
+2025-11-25 21:48:41,438 - rq.worker - INFO - Worker e43b53091d5546c98fed72b7d29b9844: cleaning registries for queue: image_tasks
+2025-11-25 21:51:00,888 - __main__ - INFO - Worker starting (Windows Native Mode), listening to queues: ['image_tasks']
+2025-11-25 21:51:00,889 - rq.worker - INFO - Worker 1c7c86f393ec45e6835420dd33e5f62c: started with PID 32660, version 2.6.1
+2025-11-25 21:51:00,889 - rq.worker - INFO - Worker 1c7c86f393ec45e6835420dd33e5f62c: subscribing to channel rq:pubsub:1c7c86f393ec45e6835420dd33e5f62c
+2025-11-25 21:51:00,920 - rq.worker - INFO - *** Listening on [32mimage_tasks[39;49;00m...
+2025-11-25 21:51:00,952 - rq.scheduler - INFO - Acquired scheduler lock for image_tasks
+2025-11-25 21:51:00,975 - rq.worker - INFO - Worker 1c7c86f393ec45e6835420dd33e5f62c: cleaning registries for queue: image_tasks
+2025-11-25 21:51:21,349 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1764087681_4k_Img.jpg', 400, 300)[39;49;00m (23110448-6a77-454e-96a1-3596c03a4b9c)
+2025-11-25 21:51:21,403 - rq.worker - ERROR - Worker 1c7c86f393ec45e6835420dd33e5f62c: job 23110448-6a77-454e-96a1-3596c03a4b9c: exception raised while executing (tasks.resize_image)
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1439, in perform_job
+    return_value = job.perform()
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1318, in perform
+    self._result = self._execute()
+                   ~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1376, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "D:\Varshith\SRU\Assignments\SEM 3\image-resizer-project\tasks.py", line 38, in resize_image
+    raise TemporaryResizeError("Simulated temporary network/resource issue.")
+tasks.TemporaryResizeError: Simulated temporary network/resource issue.
+
+2025-11-25 21:51:31,520 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1764087681_4k_Img.jpg', 400, 300)[39;49;00m (23110448-6a77-454e-96a1-3596c03a4b9c)
+2025-11-25 21:51:31,862 - rq.worker - INFO - Successfully completed tasks.resize_image('images\\original_1764087681_4k_Img.jpg', 400, 300) job in 0:00:00.328809s on worker 1c7c86f393ec45e6835420dd33e5f62c
+2025-11-25 21:51:31,864 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mJob OK[39;49;00m (23110448-6a77-454e-96a1-3596c03a4b9c)
+2025-11-25 21:51:31,864 - rq.worker - INFO - Result is kept for 86400 seconds
+2025-11-25 21:56:40,531 - __main__ - INFO - Worker starting (Windows Native Mode), listening to queues: ['image_tasks']
+2025-11-25 21:56:40,533 - rq.worker - INFO - Worker 02b96fa0cb87421e813de832c7af897b: started with PID 32012, version 2.6.1
+2025-11-25 21:56:40,533 - rq.worker - INFO - Worker 02b96fa0cb87421e813de832c7af897b: subscribing to channel rq:pubsub:02b96fa0cb87421e813de832c7af897b
+2025-11-25 21:56:40,550 - rq.worker - INFO - *** Listening on [32mimage_tasks[39;49;00m...
+2025-11-25 21:56:40,554 - rq.scheduler - INFO - Acquired scheduler lock for image_tasks
+2025-11-25 21:56:40,566 - rq.worker - INFO - Worker 02b96fa0cb87421e813de832c7af897b: cleaning registries for queue: image_tasks
+2025-11-25 21:57:07,087 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1764088027_4k_Img.jpg', 400, 300)[39;49;00m (904a9577-a731-4d31-9fa3-05027322c5e9)
+2025-11-25 21:57:07,135 - rq.worker - ERROR - Worker 02b96fa0cb87421e813de832c7af897b: job 904a9577-a731-4d31-9fa3-05027322c5e9: exception raised while executing (tasks.resize_image)
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1439, in perform_job
+    return_value = job.perform()
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1318, in perform
+    self._result = self._execute()
+                   ~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1376, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "D:\Varshith\SRU\Assignments\SEM 3\image-resizer-project\tasks.py", line 38, in resize_image
+    raise TemporaryResizeError("Simulated temporary network/resource issue.")
+tasks.TemporaryResizeError: Simulated temporary network/resource issue.
+
+2025-11-25 21:57:17,045 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1764088027_4k_Img.jpg', 400, 300)[39;49;00m (904a9577-a731-4d31-9fa3-05027322c5e9)
+2025-11-25 21:57:17,425 - rq.worker - INFO - Successfully completed tasks.resize_image('images\\original_1764088027_4k_Img.jpg', 400, 300) job in 0:00:00.368497s on worker 02b96fa0cb87421e813de832c7af897b
+2025-11-25 21:57:17,428 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mJob OK[39;49;00m (904a9577-a731-4d31-9fa3-05027322c5e9)
+2025-11-25 21:57:17,429 - rq.worker - INFO - Result is kept for 86400 seconds
+2025-11-25 22:01:49,305 - __main__ - INFO - Worker starting (Windows Native Mode), listening to queues: ['image_tasks']
+2025-11-25 22:01:49,307 - rq.worker - INFO - Worker 02ff8ac1f89b442eb267051fedb20274: started with PID 30664, version 2.6.1
+2025-11-25 22:01:49,307 - rq.worker - INFO - Worker 02ff8ac1f89b442eb267051fedb20274: subscribing to channel rq:pubsub:02ff8ac1f89b442eb267051fedb20274
+2025-11-25 22:01:49,336 - rq.worker - INFO - *** Listening on [32mimage_tasks[39;49;00m...
+2025-11-25 22:01:49,343 - rq.scheduler - INFO - Acquired scheduler lock for image_tasks
+2025-11-25 22:01:49,362 - rq.worker - INFO - Worker 02ff8ac1f89b442eb267051fedb20274: cleaning registries for queue: image_tasks
+2025-11-25 22:02:12,472 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1764088332_4k_Img.jpg', 400, 300)[39;49;00m (90468b50-27ca-47bd-9553-30937e62f454)
+2025-11-25 22:02:12,529 - rq.worker - ERROR - Worker 02ff8ac1f89b442eb267051fedb20274: job 90468b50-27ca-47bd-9553-30937e62f454: exception raised while executing (tasks.resize_image)
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1439, in perform_job
+    return_value = job.perform()
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1318, in perform
+    self._result = self._execute()
+                   ~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\job.py", line 1376, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "D:\Varshith\SRU\Assignments\SEM 3\image-resizer-project\tasks.py", line 38, in resize_image
+    raise TemporaryResizeError("Simulated temporary network/resource issue.")
+tasks.TemporaryResizeError: Simulated temporary network/resource issue.
+
+2025-11-25 22:02:22,836 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1764088332_4k_Img.jpg', 400, 300)[39;49;00m (90468b50-27ca-47bd-9553-30937e62f454)
+2025-11-25 22:02:23,176 - rq.worker - INFO - Successfully completed tasks.resize_image('images\\original_1764088332_4k_Img.jpg', 400, 300) job in 0:00:00.328358s on worker 02ff8ac1f89b442eb267051fedb20274
+2025-11-25 22:02:23,177 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mJob OK[39;49;00m (90468b50-27ca-47bd-9553-30937e62f454)
+2025-11-25 22:02:23,177 - rq.worker - INFO - Result is kept for 86400 seconds
+2026-03-11 22:30:21,668 - __main__ - INFO - Worker starting (Windows Native Mode), listening to queues: ['image_tasks']
+2026-03-11 22:30:21,673 - __main__ - ERROR - Worker terminated unexpectedly: Command # 2 (HSET rq:worker:a270b18a7a064f8ab98b905d1607a110 birth 2026-03-11T17:00:21.672066Z last_heartbeat...) of pipeline caused error: wrong number of arguments for 'hset' command
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\redis\client.py", line 1558, in _execute_transaction
+    response = self.parse_response(connection, "_")
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\redis\client.py", line 1630, in parse_response
+    result = Redis.parse_response(self, connection, command_name, **options)
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\redis\client.py", line 691, in parse_response
+    response = connection.read_response()
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\redis\connection.py", line 1155, in read_response
+    raise response
+redis.exceptions.ExecAbortError: Transaction discarded because of previous errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Varshith\SRU\Assignments\SEM 3\image-resizer-project\worker.py", line 34, in <module>
+    worker.work(with_scheduler=True)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 578, in work
+    self.bootstrap(logging_level, date_format, log_format)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 913, in bootstrap
+    self.register_birth()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 874, in register_birth
+    p.execute()
+    ~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\redis\client.py", line 1693, in execute
+    return conn.retry.call_with_retry(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        lambda: execute(conn, stack, raise_on_error),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        lambda error: self._disconnect_raise_on_watching(conn, error),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\redis\retry.py", line 116, in call_with_retry
+    return do()
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\redis\client.py", line 1694, in <lambda>
+    lambda: execute(conn, stack, raise_on_error),
+            ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\redis\client.py", line 1561, in _execute_transaction
+    raise errors[0][1]
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\redis\client.py", line 1551, in _execute_transaction
+    self.parse_response(connection, "_")
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\redis\client.py", line 1630, in parse_response
+    result = Redis.parse_response(self, connection, command_name, **options)
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\redis\client.py", line 691, in parse_response
+    response = connection.read_response()
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\redis\connection.py", line 1155, in read_response
+    raise response
+redis.exceptions.ResponseError: Command # 2 (HSET rq:worker:a270b18a7a064f8ab98b905d1607a110 birth 2026-03-11T17:00:21.672066Z last_heartbeat...) of pipeline caused error: wrong number of arguments for 'hset' command
+2026-03-11 22:41:24,480 - __main__ - INFO - Worker starting (Windows Native Mode), listening to queues: ['image_tasks']
+2026-03-11 22:41:24,483 - rq.worker - INFO - Worker rq:worker:e1d2812aad904bf8aca59a55b0c4dd05: started, version 1.10.1
+2026-03-11 22:41:24,483 - rq.worker - INFO - Subscribing to channel rq:pubsub:e1d2812aad904bf8aca59a55b0c4dd05
+2026-03-11 22:41:26,513 - rq.worker - INFO - *** Listening on [32mimage_tasks[39;49;00m...
+2026-03-11 22:41:26,514 - rq.scheduler - INFO - Trying to acquire locks for image_tasks
+2026-03-11 22:41:28,583 - rq.worker - INFO - Cleaning registries for queue: image_tasks
+2026-03-11 22:42:24,837 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1773249142_4k_Img.jpg', 400, 300)[39;49;00m (88c5894a-6a5f-4712-8420-8b588d55f2de)
+2026-03-11 22:42:24,848 - rq.worker - ERROR - Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1060, in perform_job
+    with self.death_penalty_class(timeout, JobTimeoutException, job_id=job.id):
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 35, in __enter__
+    self.setup_death_penalty()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 70, in setup_death_penalty
+    signal.signal(signal.SIGALRM, self.handle_death_penalty)
+                  ^^^^^^^^^^^^^^
+AttributeError: module 'signal' has no attribute 'SIGALRM'. Did you mean: 'SIGABRT'?
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1060, in perform_job
+    with self.death_penalty_class(timeout, JobTimeoutException, job_id=job.id):
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 35, in __enter__
+    self.setup_death_penalty()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 70, in setup_death_penalty
+    signal.signal(signal.SIGALRM, self.handle_death_penalty)
+                  ^^^^^^^^^^^^^^
+AttributeError: module 'signal' has no attribute 'SIGALRM'. Did you mean: 'SIGABRT'?
+2026-03-11 22:42:34,374 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1773249142_4k_Img.jpg', 400, 300)[39;49;00m (88c5894a-6a5f-4712-8420-8b588d55f2de)
+2026-03-11 22:42:34,383 - rq.worker - ERROR - Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1060, in perform_job
+    with self.death_penalty_class(timeout, JobTimeoutException, job_id=job.id):
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 35, in __enter__
+    self.setup_death_penalty()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 70, in setup_death_penalty
+    signal.signal(signal.SIGALRM, self.handle_death_penalty)
+                  ^^^^^^^^^^^^^^
+AttributeError: module 'signal' has no attribute 'SIGALRM'. Did you mean: 'SIGABRT'?
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1060, in perform_job
+    with self.death_penalty_class(timeout, JobTimeoutException, job_id=job.id):
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 35, in __enter__
+    self.setup_death_penalty()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 70, in setup_death_penalty
+    signal.signal(signal.SIGALRM, self.handle_death_penalty)
+                  ^^^^^^^^^^^^^^
+AttributeError: module 'signal' has no attribute 'SIGALRM'. Did you mean: 'SIGABRT'?
+2026-03-11 22:42:44,398 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1773249142_4k_Img.jpg', 400, 300)[39;49;00m (88c5894a-6a5f-4712-8420-8b588d55f2de)
+2026-03-11 22:42:44,405 - rq.worker - ERROR - Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1060, in perform_job
+    with self.death_penalty_class(timeout, JobTimeoutException, job_id=job.id):
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 35, in __enter__
+    self.setup_death_penalty()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 70, in setup_death_penalty
+    signal.signal(signal.SIGALRM, self.handle_death_penalty)
+                  ^^^^^^^^^^^^^^
+AttributeError: module 'signal' has no attribute 'SIGALRM'. Did you mean: 'SIGABRT'?
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1060, in perform_job
+    with self.death_penalty_class(timeout, JobTimeoutException, job_id=job.id):
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 35, in __enter__
+    self.setup_death_penalty()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 70, in setup_death_penalty
+    signal.signal(signal.SIGALRM, self.handle_death_penalty)
+                  ^^^^^^^^^^^^^^
+AttributeError: module 'signal' has no attribute 'SIGALRM'. Did you mean: 'SIGABRT'?
+2026-03-11 22:42:54,424 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1773249142_4k_Img.jpg', 400, 300)[39;49;00m (88c5894a-6a5f-4712-8420-8b588d55f2de)
+2026-03-11 22:42:54,430 - rq.worker - ERROR - Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1060, in perform_job
+    with self.death_penalty_class(timeout, JobTimeoutException, job_id=job.id):
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 35, in __enter__
+    self.setup_death_penalty()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 70, in setup_death_penalty
+    signal.signal(signal.SIGALRM, self.handle_death_penalty)
+                  ^^^^^^^^^^^^^^
+AttributeError: module 'signal' has no attribute 'SIGALRM'. Did you mean: 'SIGABRT'?
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1060, in perform_job
+    with self.death_penalty_class(timeout, JobTimeoutException, job_id=job.id):
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 35, in __enter__
+    self.setup_death_penalty()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 70, in setup_death_penalty
+    signal.signal(signal.SIGALRM, self.handle_death_penalty)
+                  ^^^^^^^^^^^^^^
+AttributeError: module 'signal' has no attribute 'SIGALRM'. Did you mean: 'SIGABRT'?
+2026-03-11 22:46:11,364 - __main__ - INFO - Worker starting (Windows Native Mode), listening to queues: ['image_tasks']
+2026-03-11 22:46:11,366 - rq.worker - INFO - Worker rq:worker:025885751d5e48389ccdadb433f5d06a: started, version 1.10.1
+2026-03-11 22:46:11,366 - rq.worker - INFO - Subscribing to channel rq:pubsub:025885751d5e48389ccdadb433f5d06a
+2026-03-11 22:46:13,413 - rq.worker - INFO - *** Listening on [32mimage_tasks[39;49;00m...
+2026-03-11 22:46:13,414 - rq.scheduler - INFO - Trying to acquire locks for image_tasks
+2026-03-11 22:46:43,112 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1773249401_4k_Img.jpg', 400, 300)[39;49;00m (ea1a888d-2d01-4583-8fa7-df8e931785d6)
+2026-03-11 22:46:43,123 - rq.worker - ERROR - Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1060, in perform_job
+    with self.death_penalty_class(timeout, JobTimeoutException, job_id=job.id):
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 35, in __enter__
+    self.setup_death_penalty()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 70, in setup_death_penalty
+    signal.signal(signal.SIGALRM, self.handle_death_penalty)
+                  ^^^^^^^^^^^^^^
+AttributeError: module 'signal' has no attribute 'SIGALRM'. Did you mean: 'SIGABRT'?
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1060, in perform_job
+    with self.death_penalty_class(timeout, JobTimeoutException, job_id=job.id):
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 35, in __enter__
+    self.setup_death_penalty()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 70, in setup_death_penalty
+    signal.signal(signal.SIGALRM, self.handle_death_penalty)
+                  ^^^^^^^^^^^^^^
+AttributeError: module 'signal' has no attribute 'SIGALRM'. Did you mean: 'SIGABRT'?
+2026-03-11 22:46:53,149 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1773249401_4k_Img.jpg', 400, 300)[39;49;00m (ea1a888d-2d01-4583-8fa7-df8e931785d6)
+2026-03-11 22:46:53,155 - rq.worker - ERROR - Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1060, in perform_job
+    with self.death_penalty_class(timeout, JobTimeoutException, job_id=job.id):
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 35, in __enter__
+    self.setup_death_penalty()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 70, in setup_death_penalty
+    signal.signal(signal.SIGALRM, self.handle_death_penalty)
+                  ^^^^^^^^^^^^^^
+AttributeError: module 'signal' has no attribute 'SIGALRM'. Did you mean: 'SIGABRT'?
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1060, in perform_job
+    with self.death_penalty_class(timeout, JobTimeoutException, job_id=job.id):
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 35, in __enter__
+    self.setup_death_penalty()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 70, in setup_death_penalty
+    signal.signal(signal.SIGALRM, self.handle_death_penalty)
+                  ^^^^^^^^^^^^^^
+AttributeError: module 'signal' has no attribute 'SIGALRM'. Did you mean: 'SIGABRT'?
+2026-03-11 22:47:03,172 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1773249401_4k_Img.jpg', 400, 300)[39;49;00m (ea1a888d-2d01-4583-8fa7-df8e931785d6)
+2026-03-11 22:47:03,181 - rq.worker - ERROR - Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1060, in perform_job
+    with self.death_penalty_class(timeout, JobTimeoutException, job_id=job.id):
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 35, in __enter__
+    self.setup_death_penalty()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 70, in setup_death_penalty
+    signal.signal(signal.SIGALRM, self.handle_death_penalty)
+                  ^^^^^^^^^^^^^^
+AttributeError: module 'signal' has no attribute 'SIGALRM'. Did you mean: 'SIGABRT'?
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1060, in perform_job
+    with self.death_penalty_class(timeout, JobTimeoutException, job_id=job.id):
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 35, in __enter__
+    self.setup_death_penalty()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 70, in setup_death_penalty
+    signal.signal(signal.SIGALRM, self.handle_death_penalty)
+                  ^^^^^^^^^^^^^^
+AttributeError: module 'signal' has no attribute 'SIGALRM'. Did you mean: 'SIGABRT'?
+2026-03-11 22:47:13,194 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1773249401_4k_Img.jpg', 400, 300)[39;49;00m (ea1a888d-2d01-4583-8fa7-df8e931785d6)
+2026-03-11 22:47:13,201 - rq.worker - ERROR - Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1060, in perform_job
+    with self.death_penalty_class(timeout, JobTimeoutException, job_id=job.id):
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 35, in __enter__
+    self.setup_death_penalty()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 70, in setup_death_penalty
+    signal.signal(signal.SIGALRM, self.handle_death_penalty)
+                  ^^^^^^^^^^^^^^
+AttributeError: module 'signal' has no attribute 'SIGALRM'. Did you mean: 'SIGABRT'?
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1060, in perform_job
+    with self.death_penalty_class(timeout, JobTimeoutException, job_id=job.id):
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 35, in __enter__
+    self.setup_death_penalty()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 70, in setup_death_penalty
+    signal.signal(signal.SIGALRM, self.handle_death_penalty)
+                  ^^^^^^^^^^^^^^
+AttributeError: module 'signal' has no attribute 'SIGALRM'. Did you mean: 'SIGABRT'?
+2026-03-11 22:48:11,569 - __main__ - INFO - Worker starting (Windows Native Mode), listening to queues: ['image_tasks']
+2026-03-11 22:48:11,571 - rq.worker - INFO - Worker rq:worker:1642559dbb6b4c7e84b4331e0c2820c4: started, version 1.10.1
+2026-03-11 22:48:11,572 - rq.worker - INFO - Subscribing to channel rq:pubsub:1642559dbb6b4c7e84b4331e0c2820c4
+2026-03-11 22:48:13,599 - rq.worker - INFO - *** Listening on [32mimage_tasks[39;49;00m...
+2026-03-11 22:48:13,599 - rq.scheduler - INFO - Trying to acquire locks for image_tasks
+2026-03-11 22:55:58,145 - __main__ - INFO - Worker starting (Windows Native Mode), listening to queues: ['image_tasks']
+2026-03-11 22:55:58,171 - __main__ - ERROR - Worker terminated unexpectedly: Worker.work() got an unexpected keyword argument 'horse_monitor_threshold'
+Traceback (most recent call last):
+  File "D:\Varshith\SRU\Assignments\SEM 3\image-resizer-project\worker.py", line 34, in <module>
+    worker.work(logging_level='INFO', with_scheduler=True, horse_monitor_threshold=0)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Worker.work() got an unexpected keyword argument 'horse_monitor_threshold'
+2026-03-11 22:56:53,669 - __main__ - INFO - Worker starting (Windows Native Mode), listening to queues: ['image_tasks']
+2026-03-11 22:56:53,672 - rq.worker - INFO - Worker rq:worker:5d513c3ba672494a96ba2c063a7bd438: started, version 1.10.1
+2026-03-11 22:56:53,673 - rq.worker - INFO - Subscribing to channel rq:pubsub:5d513c3ba672494a96ba2c063a7bd438
+2026-03-11 22:56:55,701 - rq.worker - INFO - *** Listening on [32mimage_tasks[39;49;00m...
+2026-03-11 22:56:55,702 - rq.scheduler - INFO - Trying to acquire locks for image_tasks
+2026-03-11 22:56:57,755 - rq.worker - INFO - Cleaning registries for queue: image_tasks
+2026-03-11 22:57:09,294 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1773250027_4k_Img.jpg', 400, 300)[39;49;00m (5b743d85-2375-482b-8b86-493c184ca922)
+2026-03-11 22:57:09,322 - rq.worker - ERROR - Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1060, in perform_job
+    with self.death_penalty_class(timeout, JobTimeoutException, job_id=job.id):
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 35, in __enter__
+    self.setup_death_penalty()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 70, in setup_death_penalty
+    signal.signal(signal.SIGALRM, self.handle_death_penalty)
+                  ^^^^^^^^^^^^^^
+AttributeError: module 'signal' has no attribute 'SIGALRM'. Did you mean: 'SIGABRT'?
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 1060, in perform_job
+    with self.death_penalty_class(timeout, JobTimeoutException, job_id=job.id):
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 35, in __enter__
+    self.setup_death_penalty()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\timeouts.py", line 70, in setup_death_penalty
+    signal.signal(signal.SIGALRM, self.handle_death_penalty)
+                  ^^^^^^^^^^^^^^
+AttributeError: module 'signal' has no attribute 'SIGALRM'. Did you mean: 'SIGABRT'?
+2026-03-11 22:58:16,580 - __main__ - INFO - Worker starting (Windows Native Mode), listening to queues: ['image_tasks']
+2026-03-11 22:58:16,580 - __main__ - ERROR - Worker terminated unexpectedly: Worker.work() got an unexpected keyword argument 'horse_monitor_threshold'
+Traceback (most recent call last):
+  File "D:\Varshith\SRU\Assignments\SEM 3\image-resizer-project\worker.py", line 34, in <module>
+    worker.work(logging_level='INFO', with_scheduler=True, horse_monitor_threshold=0)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Worker.work() got an unexpected keyword argument 'horse_monitor_threshold'
+2026-03-11 23:08:52,152 - rq.worker - INFO - Worker rq:worker:7066f398e0a943e4a487c9f83defc53a: started, version 1.10.1
+2026-03-11 23:08:52,159 - rq.worker - INFO - Subscribing to channel rq:pubsub:7066f398e0a943e4a487c9f83defc53a
+2026-03-11 23:08:54,202 - rq.worker - INFO - *** Listening on [32mimage_tasks[39;49;00m...
+2026-03-11 23:08:54,218 - rq.worker - INFO - Cleaning registries for queue: image_tasks
+2026-03-11 23:08:54,223 - rq.worker - INFO - Worker rq:worker:7066f398e0a943e4a487c9f83defc53a: done, quitting
+2026-03-11 23:08:54,234 - rq.worker - INFO - Unsubscribing from channel rq:pubsub:7066f398e0a943e4a487c9f83defc53a
+2026-03-11 23:17:05,726 - rq.worker - INFO - Worker rq:worker:d83f4711f8574cfebda6e9198819436d: started, version 1.10.1
+2026-03-11 23:17:05,739 - rq.worker - INFO - Subscribing to channel rq:pubsub:d83f4711f8574cfebda6e9198819436d
+2026-03-11 23:17:07,787 - rq.worker - INFO - *** Listening on [32mimage_tasks[39;49;00m...
+2026-03-11 23:17:07,813 - rq.worker - INFO - [32mimage_tasks[39;49;00m: [34mtasks.resize_image('images\\original_1773250750_4k_Img.jpg', 400, 300)[39;49;00m (00bd3a40-4713-4c66-a89d-ee270436e48d)
+2026-03-11 23:17:07,818 - rq.worker - ERROR - Worker rq:worker:d83f4711f8574cfebda6e9198819436d: found an unhandled exception, quitting...
+Traceback (most recent call last):
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 606, in work
+    self.execute_job(job, queue)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 866, in execute_job
+    self.fork_work_horse(job, queue)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\VEEKSHITH\AppData\Local\Programs\Python\Python314\Lib\site-packages\rq\worker.py", line 770, in fork_work_horse
+    child_pid = os.fork()
+                ^^^^^^^
+AttributeError: module 'os' has no attribute 'fork'
+2026-03-11 23:17:07,834 - rq.worker - INFO - Unsubscribing from channel rq:pubsub:d83f4711f8574cfebda6e9198819436d

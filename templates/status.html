@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Status</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Job Status: {{ job_id }}</h1>
+
+        <div class="status-box">
+            <p>Current Status:</p>
+            
+            <span class="status-indicator {{ status.lower() }}">
+                {{ status.upper() }}
+            </span>
+            
+            {% if status == 'finished' %}
+                <h2>🎉 Job Complete!</h2>
+                <p>Output file is ready.</p>
+                <div style="margin-top: 20px;">
+                    <a href="{{ url_for('images', filename=result_path.split('/')[-1]) }}" target="_blank">
+                        <img src="{{ url_for('images', filename=result_path.split('/')[-1]) }}" style="max-width: 100%; border-radius: 8px; box-shadow: var(--shadow); margin-bottom: 10px;">
+                    </a>
+                    <br>
+                    <a href="{{ url_for('images', filename=result_path.split('/')[-1]) }}" download>Download Image</a>
+                </div>
+            {% else %}
+                <p>The worker is currently processing or waiting for a retry.</p>
+                <p>Please refresh the page in 5-10 seconds.</p>
+            {% endif %}
+            
+            <hr style="margin-top: 25px;">
+            <a href="{{ url_for('upload_file') }}" style="color: var(--primary);">Start New Job</a>
+        </div>
+    </div>
+</body>
+</html>

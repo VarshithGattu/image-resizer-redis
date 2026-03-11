@@ -1,0 +1,616 @@
+2025-11-25 20:50:51,973 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-25 20:50:51,973 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-25 20:50:54,823 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:50:54] "GET / HTTP/1.1" 200 -
+2025-11-25 20:51:03,112 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:51:03] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-11-25 20:51:03,133 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:51:03] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 20:51:08,192 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:51:08] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 20:51:13,251 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:51:13] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 20:51:18,291 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:51:18] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 20:51:23,340 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:51:23] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 20:51:28,408 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:51:28] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 20:51:33,479 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:51:33] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 20:51:38,546 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:51:38] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 20:51:43,616 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:51:43] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 20:51:48,641 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:51:48] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 20:51:53,674 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:51:53] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 20:51:58,725 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:51:58] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 20:52:03,764 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:52:03] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 20:52:08,803 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:52:08] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 20:52:13,861 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:52:13] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 20:52:18,900 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:52:18] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 20:52:23,950 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:52:23] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 20:52:29,010 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:52:29] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 20:52:34,077 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:52:34] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 20:52:39,123 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:52:39] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 20:52:42,288 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-25 20:52:42,288 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-25 20:52:44,213 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:52:44] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 20:52:49,275 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:52:49] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 20:52:51,547 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:52:51] "GET / HTTP/1.1" 200 -
+2025-11-25 20:52:54,318 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:52:54] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 20:52:58,189 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:52:58] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-11-25 20:52:58,206 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:52:58] "GET /status/6968d2a0-d413-4f7b-ada0-499a56a0caef HTTP/1.1" 200 -
+2025-11-25 20:52:59,350 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:52:59] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 20:53:03,268 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:53:03] "GET /status/6968d2a0-d413-4f7b-ada0-499a56a0caef HTTP/1.1" 200 -
+2025-11-25 20:53:04,397 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 20:53:04] "GET /status/76b4af2e-8de1-4bf3-93cd-a4660cbd75e1 HTTP/1.1" 200 -
+2025-11-25 21:08:16,602 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-25 21:08:16,602 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-25 21:08:18,562 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:08:18] "GET / HTTP/1.1" 200 -
+2025-11-25 21:08:25,965 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:08:25] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-11-25 21:08:25,995 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:08:25] "GET /status/dd6bce63-aff4-4a73-80de-8ceae991b534 HTTP/1.1" 200 -
+2025-11-25 21:08:31,056 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:08:31] "GET /status/dd6bce63-aff4-4a73-80de-8ceae991b534 HTTP/1.1" 200 -
+2025-11-25 21:08:36,105 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:08:36] "GET /status/dd6bce63-aff4-4a73-80de-8ceae991b534 HTTP/1.1" 200 -
+2025-11-25 21:08:41,143 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:08:41] "GET /status/dd6bce63-aff4-4a73-80de-8ceae991b534 HTTP/1.1" 200 -
+2025-11-25 21:08:46,177 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:08:46] "GET /status/dd6bce63-aff4-4a73-80de-8ceae991b534 HTTP/1.1" 200 -
+2025-11-25 21:08:51,220 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:08:51] "GET /status/dd6bce63-aff4-4a73-80de-8ceae991b534 HTTP/1.1" 200 -
+2025-11-25 21:08:56,264 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:08:56] "GET /status/dd6bce63-aff4-4a73-80de-8ceae991b534 HTTP/1.1" 200 -
+2025-11-25 21:09:01,318 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:09:01] "GET /status/dd6bce63-aff4-4a73-80de-8ceae991b534 HTTP/1.1" 200 -
+2025-11-25 21:13:43,412 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-25 21:13:43,412 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-25 21:13:45,719 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:13:45] "GET / HTTP/1.1" 200 -
+2025-11-25 21:13:52,843 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:13:52] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-11-25 21:13:52,873 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:13:52] "GET /status/bcf907b8-92dd-4bd8-a8fe-7a4b193dd754 HTTP/1.1" 200 -
+2025-11-25 21:13:57,925 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:13:57] "GET /status/bcf907b8-92dd-4bd8-a8fe-7a4b193dd754 HTTP/1.1" 200 -
+2025-11-25 21:18:25,564 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-25 21:18:25,565 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-25 21:18:27,504 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:18:27] "GET / HTTP/1.1" 200 -
+2025-11-25 21:18:29,548 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:18:29] "GET / HTTP/1.1" 200 -
+2025-11-25 21:18:43,757 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:18:43] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-11-25 21:18:43,783 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:18:43] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:18:48,831 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:18:48] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:18:53,881 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:18:53] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:18:58,926 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:18:58] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:19:03,980 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:19:03] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:19:09,025 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:19:09] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:19:14,077 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:19:14] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:19:19,115 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:19:19] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:19:24,165 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:19:24] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:19:29,218 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:19:29] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:19:34,257 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:19:34] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:19:39,317 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:19:39] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:19:44,376 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:19:44] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:19:49,424 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:19:49] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:19:54,462 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:19:54] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:19:59,503 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:19:59] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:20:04,549 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:20:04] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:20:09,595 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:20:09] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:20:14,637 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:20:14] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:20:19,676 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:20:19] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:20:24,721 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:20:24] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:20:29,763 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:20:29] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:20:34,795 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:20:34] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:20:39,843 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:20:39] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:20:44,894 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:20:44] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:20:49,935 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:20:49] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:20:54,969 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:20:54] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:21:00,022 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:21:00] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:21:05,071 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:21:05] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:21:10,128 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:21:10] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:21:15,177 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:21:15] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:21:20,231 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:21:20] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:21:21,267 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:21:21] "GET /status/d26674e0-d671-4883-96aa-5c7d5860c359 HTTP/1.1" 200 -
+2025-11-25 21:22:29,568 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-25 21:22:29,568 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-25 21:22:31,209 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:22:31] "GET / HTTP/1.1" 200 -
+2025-11-25 21:22:46,987 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:22:46] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-11-25 21:22:47,008 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:22:47] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:22:52,060 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:22:52] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:22:57,098 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:22:57] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:23:02,137 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:23:02] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:23:07,170 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:23:07] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:23:12,218 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:23:12] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:23:17,266 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:23:17] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:23:22,303 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:23:22] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:23:27,358 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:23:27] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:23:32,418 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:23:32] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:23:37,482 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:23:37] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:23:42,523 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:23:42] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:23:47,550 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:23:47] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:23:52,584 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:23:52] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:23:57,622 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:23:57] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:24:02,672 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:24:02] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:24:07,707 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:24:07] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:24:12,754 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:24:12] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:24:17,808 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:24:17] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:24:22,850 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:24:22] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:25:18,024 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-25 21:25:18,025 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-25 21:25:19,828 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:25:19] "GET / HTTP/1.1" 200 -
+2025-11-25 21:25:32,428 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:25:32] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-11-25 21:25:32,463 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:25:32] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:25:37,521 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:25:37] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:25:42,577 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:25:42] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:25:47,625 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:25:47] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:25:52,676 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:25:52] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:25:57,730 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:25:57] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:26:02,774 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:26:02] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:26:07,235 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:26:07] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:26:10,339 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:26:10] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:26:15,387 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:26:15] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:26:20,438 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:26:20] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:26:25,484 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:26:25] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:26:30,532 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:26:30] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:26:35,592 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:26:35] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:26:40,662 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:26:40] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:26:45,723 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:26:45] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:26:50,776 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:26:50] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:26:55,839 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:26:55] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:26:57,365 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:26:57] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:27:02,411 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:27:02] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:27:07,455 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:27:07] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:27:12,489 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:27:12] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:27:17,527 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:27:17] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:27:22,572 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:27:22] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:27:27,618 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:27:27] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:27:32,673 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:27:32] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:27:37,736 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:27:37] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:27:42,779 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:27:42] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:27:47,833 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:27:47] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:27:52,875 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:27:52] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:27:57,925 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:27:57] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:28:02,971 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:28:02] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:28:08,023 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:28:08] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:28:13,060 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:28:13] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:28:18,096 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:28:18] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:28:23,138 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:28:23] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:28:28,175 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:28:28] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:28:33,213 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:28:33] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:28:38,255 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:28:38] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:28:43,292 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:28:43] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:28:48,335 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:28:48] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:28:53,384 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:28:53] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:28:58,422 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:28:58] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:29:03,456 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:29:03] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:29:08,488 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:29:08] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:29:13,526 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:29:13] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:29:18,565 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:29:18] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:29:23,601 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:29:23] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:29:28,635 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:29:28] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:29:33,675 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:29:33] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:29:38,706 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:29:38] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:29:43,763 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:29:43] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:29:48,825 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:29:48] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:29:53,872 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:29:53] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:29:58,932 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:29:58] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:30:03,975 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:30:03] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:30:09,033 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:30:09] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:30:55,803 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-25 21:30:55,803 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-25 21:30:57,760 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:30:57] "GET / HTTP/1.1" 200 -
+2025-11-25 21:31:05,443 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:31:05] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-11-25 21:31:05,475 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:31:05] "GET /status/e232d75a-35a7-4355-a526-49a6609e2a79 HTTP/1.1" 200 -
+2025-11-25 21:31:10,532 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:31:10] "GET /status/e232d75a-35a7-4355-a526-49a6609e2a79 HTTP/1.1" 200 -
+2025-11-25 21:31:15,592 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:31:15] "GET /status/e232d75a-35a7-4355-a526-49a6609e2a79 HTTP/1.1" 200 -
+2025-11-25 21:31:20,659 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:31:20] "GET /status/e232d75a-35a7-4355-a526-49a6609e2a79 HTTP/1.1" 200 -
+2025-11-25 21:31:25,725 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:31:25] "GET /status/e232d75a-35a7-4355-a526-49a6609e2a79 HTTP/1.1" 200 -
+2025-11-25 21:31:30,802 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:31:30] "GET /status/e232d75a-35a7-4355-a526-49a6609e2a79 HTTP/1.1" 200 -
+2025-11-25 21:31:35,871 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:31:35] "GET /status/e232d75a-35a7-4355-a526-49a6609e2a79 HTTP/1.1" 200 -
+2025-11-25 21:31:40,940 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:31:40] "GET /status/e232d75a-35a7-4355-a526-49a6609e2a79 HTTP/1.1" 200 -
+2025-11-25 21:31:46,008 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:31:46] "GET /status/e232d75a-35a7-4355-a526-49a6609e2a79 HTTP/1.1" 200 -
+2025-11-25 21:31:51,077 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:31:51] "GET /status/e232d75a-35a7-4355-a526-49a6609e2a79 HTTP/1.1" 200 -
+2025-11-25 21:31:56,161 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:31:56] "GET /status/e232d75a-35a7-4355-a526-49a6609e2a79 HTTP/1.1" 200 -
+2025-11-25 21:32:01,214 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:32:01] "GET /status/e232d75a-35a7-4355-a526-49a6609e2a79 HTTP/1.1" 200 -
+2025-11-25 21:32:02,500 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:32:02] "[33mGET /static/images\\resized_e232d75a-35a7-4355-a526-49a6609e2a79_400x300.jpg HTTP/1.1[0m" 404 -
+2025-11-25 21:32:10,115 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:32:10] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:32:15,190 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:32:15] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:32:20,233 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:32:20] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:32:22,704 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:32:22] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:32:25,267 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:32:25] "GET /status/8986b4e6-0891-43f4-b95f-a671c2a1d408 HTTP/1.1" 200 -
+2025-11-25 21:32:26,232 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:32:26] "GET / HTTP/1.1" 200 -
+2025-11-25 21:32:27,776 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:32:27] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:32:32,806 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:32:32] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:32:37,845 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:32:37] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:32:42,881 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:32:42] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:32:45,270 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:32:45] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-11-25 21:32:45,287 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:32:45] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:32:47,918 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:32:47] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:32:50,346 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:32:50] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:32:52,971 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:32:52] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:32:55,391 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:32:55] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:32:58,023 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:32:58] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:33:00,448 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:33:00] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:33:03,063 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:33:03] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:33:05,495 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:33:05] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:33:08,097 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:33:08] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:33:10,586 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:33:10] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:33:13,144 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:33:13] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:33:15,646 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:33:15] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:33:18,212 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:33:18] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:33:20,724 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:33:20] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:33:23,256 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:33:23] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:33:25,782 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:33:25] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:33:28,310 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:33:28] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:33:30,831 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:33:30] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:33:33,367 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:33:33] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:33:35,883 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:33:35] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:33:38,419 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:33:38] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:33:40,930 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:33:40] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:33:43,460 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:33:43] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:33:45,984 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:33:45] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:33:48,508 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:33:48] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:33:51,033 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:33:51] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:33:53,555 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:33:53] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:33:56,085 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:33:56] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:33:58,597 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:33:58] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:34:01,130 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:34:01] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:34:03,642 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:34:03] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:34:06,184 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:34:06] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:34:08,694 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:34:08] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:34:11,232 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:34:11] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:34:13,737 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:34:13] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:34:16,283 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:34:16] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:34:18,769 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:34:18] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:34:21,328 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:34:21] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:34:23,798 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:34:23] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:34:26,375 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:34:26] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:34:28,832 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:34:28] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:34:31,418 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:34:31] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:34:33,876 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:34:33] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:34:36,467 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:34:36] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:34:38,916 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:34:38] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:34:41,528 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:34:41] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:34:43,960 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:34:43] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:34:46,589 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:34:46] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:34:49,022 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:34:49] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:34:51,637 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:34:51] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:34:54,073 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:34:54] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:34:56,674 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:34:56] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:34:59,122 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:34:59] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:35:01,721 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:35:01] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:35:04,166 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:35:04] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:35:06,771 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:35:06] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:35:09,216 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:35:09] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:35:11,845 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:35:11] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:35:14,274 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:35:14] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:35:16,923 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:35:16] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:35:19,329 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:35:19] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:35:21,975 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:35:21] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:35:24,384 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:35:24] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:35:27,035 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:35:27] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:35:29,453 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:35:29] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:35:32,097 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:35:32] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:35:34,515 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:35:34] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:35:37,151 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:35:37] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:35:39,557 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:35:39] "GET /status/550fc028-7586-44f4-a912-f2ee4c07f05b HTTP/1.1" 200 -
+2025-11-25 21:35:42,208 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:35:42] "GET /status/ff1c8a8d-dd5c-43cf-a27a-2d0b61a95ec6 HTTP/1.1" 200 -
+2025-11-25 21:37:06,650 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-25 21:37:06,654 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-25 21:37:08,464 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:37:08] "GET / HTTP/1.1" 200 -
+2025-11-25 21:37:39,981 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:37:39] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-11-25 21:37:40,007 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:37:40] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:37:45,063 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:37:45] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:37:50,097 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:37:50] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:37:55,145 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:37:55] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:38:00,204 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:38:00] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:38:05,261 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:38:05] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:38:10,317 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:38:10] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:38:15,376 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:38:15] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:38:20,442 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:38:20] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:38:25,521 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:38:25] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:38:30,606 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:38:30] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:38:35,672 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:38:35] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:38:40,745 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:38:40] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:38:45,812 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:38:45] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:38:50,881 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:38:50] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:38:55,947 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:38:55] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:39:01,000 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:39:01] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:39:06,051 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:39:06] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:39:11,089 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:39:11] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:39:16,117 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:39:16] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:39:21,149 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:39:21] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:39:26,185 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:39:26] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:39:31,225 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:39:31] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:39:36,255 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:39:36] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:39:41,306 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:39:41] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:39:46,357 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:39:46] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:39:51,403 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:39:51] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:39:56,442 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:39:56] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:40:01,480 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:40:01] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:40:06,524 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:40:06] "GET /status/e1d7ba66-cd38-4ee7-b178-53d39bceccf6 HTTP/1.1" 200 -
+2025-11-25 21:40:09,826 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:40:09] "GET / HTTP/1.1" 200 -
+2025-11-25 21:40:16,648 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:40:16] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-11-25 21:40:16,660 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:40:16] "GET /status/8f59fb52-76c4-49e8-b856-ceaec0b76723 HTTP/1.1" 200 -
+2025-11-25 21:40:21,699 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:40:21] "GET /status/8f59fb52-76c4-49e8-b856-ceaec0b76723 HTTP/1.1" 200 -
+2025-11-25 21:40:26,729 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:40:26] "GET /status/8f59fb52-76c4-49e8-b856-ceaec0b76723 HTTP/1.1" 200 -
+2025-11-25 21:40:31,772 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:40:31] "GET /status/8f59fb52-76c4-49e8-b856-ceaec0b76723 HTTP/1.1" 200 -
+2025-11-25 21:40:36,819 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:40:36] "GET /status/8f59fb52-76c4-49e8-b856-ceaec0b76723 HTTP/1.1" 200 -
+2025-11-25 21:40:41,864 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:40:41] "GET /status/8f59fb52-76c4-49e8-b856-ceaec0b76723 HTTP/1.1" 200 -
+2025-11-25 21:40:46,940 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:40:46] "GET /status/8f59fb52-76c4-49e8-b856-ceaec0b76723 HTTP/1.1" 200 -
+2025-11-25 21:40:52,011 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:40:52] "GET /status/8f59fb52-76c4-49e8-b856-ceaec0b76723 HTTP/1.1" 200 -
+2025-11-25 21:40:57,087 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:40:57] "GET /status/8f59fb52-76c4-49e8-b856-ceaec0b76723 HTTP/1.1" 200 -
+2025-11-25 21:41:02,155 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:41:02] "GET /status/8f59fb52-76c4-49e8-b856-ceaec0b76723 HTTP/1.1" 200 -
+2025-11-25 21:41:07,192 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:41:07] "GET /status/8f59fb52-76c4-49e8-b856-ceaec0b76723 HTTP/1.1" 200 -
+2025-11-25 21:41:12,231 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:41:12] "GET /status/8f59fb52-76c4-49e8-b856-ceaec0b76723 HTTP/1.1" 200 -
+2025-11-25 21:41:17,284 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:41:17] "GET /status/8f59fb52-76c4-49e8-b856-ceaec0b76723 HTTP/1.1" 200 -
+2025-11-25 21:41:22,339 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:41:22] "GET /status/8f59fb52-76c4-49e8-b856-ceaec0b76723 HTTP/1.1" 200 -
+2025-11-25 21:41:27,378 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:41:27] "GET /status/8f59fb52-76c4-49e8-b856-ceaec0b76723 HTTP/1.1" 200 -
+2025-11-25 21:41:27,876 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:41:27] "GET / HTTP/1.1" 200 -
+2025-11-25 21:41:43,841 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:41:43] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-11-25 21:41:43,851 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:41:43] "GET /status/e6570416-69dd-4a26-93be-d081dcf4aee0 HTTP/1.1" 200 -
+2025-11-25 21:41:48,893 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:41:48] "GET /status/e6570416-69dd-4a26-93be-d081dcf4aee0 HTTP/1.1" 200 -
+2025-11-25 21:41:53,923 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:41:53] "GET /status/e6570416-69dd-4a26-93be-d081dcf4aee0 HTTP/1.1" 200 -
+2025-11-25 21:41:58,972 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:41:58] "GET /status/e6570416-69dd-4a26-93be-d081dcf4aee0 HTTP/1.1" 200 -
+2025-11-25 21:42:04,019 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:42:04] "GET /status/e6570416-69dd-4a26-93be-d081dcf4aee0 HTTP/1.1" 200 -
+2025-11-25 21:42:09,093 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:42:09] "GET /status/e6570416-69dd-4a26-93be-d081dcf4aee0 HTTP/1.1" 200 -
+2025-11-25 21:42:14,155 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:42:14] "GET /status/e6570416-69dd-4a26-93be-d081dcf4aee0 HTTP/1.1" 200 -
+2025-11-25 21:42:19,212 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:42:19] "GET /status/e6570416-69dd-4a26-93be-d081dcf4aee0 HTTP/1.1" 200 -
+2025-11-25 21:42:24,281 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:42:24] "GET /status/e6570416-69dd-4a26-93be-d081dcf4aee0 HTTP/1.1" 200 -
+2025-11-25 21:42:29,355 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:42:29] "GET /status/e6570416-69dd-4a26-93be-d081dcf4aee0 HTTP/1.1" 200 -
+2025-11-25 21:42:34,406 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:42:34] "GET /status/e6570416-69dd-4a26-93be-d081dcf4aee0 HTTP/1.1" 200 -
+2025-11-25 21:42:36,901 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:42:36] "GET / HTTP/1.1" 200 -
+2025-11-25 21:51:07,593 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-25 21:51:07,593 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-25 21:51:09,874 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:51:09] "GET / HTTP/1.1" 200 -
+2025-11-25 21:51:10,042 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:51:10] "GET /static/style.css HTTP/1.1" 200 -
+2025-11-25 21:51:21,339 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:51:21] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-11-25 21:51:21,375 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:51:21] "GET /status/23110448-6a77-454e-96a1-3596c03a4b9c HTTP/1.1" 200 -
+2025-11-25 21:51:21,396 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:51:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-25 21:51:46,708 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:51:46] "[35m[1mGET /status/23110448-6a77-454e-96a1-3596c03a4b9c HTTP/1.1[0m" 500 -
+2025-11-25 21:51:46,732 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:51:46] "GET /status/23110448-6a77-454e-96a1-3596c03a4b9c?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-25 21:51:46,733 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:51:46] "GET /status/23110448-6a77-454e-96a1-3596c03a4b9c?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-25 21:51:46,755 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:51:46] "GET /status/23110448-6a77-454e-96a1-3596c03a4b9c?__debugger__=yes&cmd=resource&f=console.png&s=jOe49ovjZrgpyE4gX6OE HTTP/1.1" 200 -
+2025-11-25 21:51:46,800 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:51:46] "GET /status/23110448-6a77-454e-96a1-3596c03a4b9c?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-25 21:51:48,789 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:51:48] "[35m[1mGET /status/23110448-6a77-454e-96a1-3596c03a4b9c HTTP/1.1[0m" 500 -
+2025-11-25 21:51:48,814 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:51:48] "[36mGET /status/23110448-6a77-454e-96a1-3596c03a4b9c?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-25 21:51:48,815 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:51:48] "[36mGET /status/23110448-6a77-454e-96a1-3596c03a4b9c?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-25 21:51:48,841 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:51:48] "[36mGET /status/23110448-6a77-454e-96a1-3596c03a4b9c?__debugger__=yes&cmd=resource&f=console.png&s=jOe49ovjZrgpyE4gX6OE HTTP/1.1[0m" 304 -
+2025-11-25 21:51:48,852 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:51:48] "[36mGET /status/23110448-6a77-454e-96a1-3596c03a4b9c?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-25 21:52:36,296 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:52:36] "[35m[1mGET /status/23110448-6a77-454e-96a1-3596c03a4b9c HTTP/1.1[0m" 500 -
+2025-11-25 21:52:36,315 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:52:36] "[36mGET /status/23110448-6a77-454e-96a1-3596c03a4b9c?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-25 21:52:36,315 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:52:36] "[36mGET /status/23110448-6a77-454e-96a1-3596c03a4b9c?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-25 21:52:36,334 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:52:36] "[36mGET /status/23110448-6a77-454e-96a1-3596c03a4b9c?__debugger__=yes&cmd=resource&f=console.png&s=jOe49ovjZrgpyE4gX6OE HTTP/1.1[0m" 304 -
+2025-11-25 21:52:36,347 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:52:36] "[36mGET /status/23110448-6a77-454e-96a1-3596c03a4b9c?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-25 21:56:57,241 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-25 21:56:57,242 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-25 21:56:58,778 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:56:58] "GET / HTTP/1.1" 200 -
+2025-11-25 21:56:58,927 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:56:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-25 21:57:07,081 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:57:07] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-11-25 21:57:07,104 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:57:07] "GET /status/904a9577-a731-4d31-9fa3-05027322c5e9 HTTP/1.1" 200 -
+2025-11-25 21:57:07,123 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:57:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-25 21:57:27,877 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:57:27] "GET /status/904a9577-a731-4d31-9fa3-05027322c5e9 HTTP/1.1" 200 -
+2025-11-25 21:57:27,909 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:57:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-25 21:57:27,929 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:57:27] "[35m[1mGET /images/images\\resized_904a9577-a731-4d31-9fa3-05027322c5e9_400x300.jpg HTTP/1.1[0m" 500 -
+2025-11-25 21:57:31,132 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 21:57:31] "[35m[1mGET /images/images\\resized_904a9577-a731-4d31-9fa3-05027322c5e9_400x300.jpg HTTP/1.1[0m" 500 -
+2025-11-25 22:02:01,221 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-25 22:02:01,221 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-25 22:02:03,330 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 22:02:03] "GET / HTTP/1.1" 200 -
+2025-11-25 22:02:03,476 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 22:02:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-25 22:02:12,461 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 22:02:12] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-11-25 22:02:12,494 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 22:02:12] "GET /status/90468b50-27ca-47bd-9553-30937e62f454 HTTP/1.1" 200 -
+2025-11-25 22:02:12,512 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 22:02:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-25 22:02:28,255 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 22:02:28] "GET /status/90468b50-27ca-47bd-9553-30937e62f454 HTTP/1.1" 200 -
+2025-11-25 22:02:28,276 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 22:02:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-25 22:02:28,287 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 22:02:28] "[35m[1mGET /images/images\\resized_90468b50-27ca-47bd-9553-30937e62f454_400x300.jpg HTTP/1.1[0m" 500 -
+2026-03-11 22:29:14,507 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-11 22:29:14,509 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 22:29:31,731 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:29:31] "GET / HTTP/1.1" 200 -
+2026-03-11 22:29:31,913 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:29:31] "GET /static/style.css HTTP/1.1" 200 -
+2026-03-11 22:29:31,947 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:29:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-11 22:31:32,636 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:31:32] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2026-03-11 22:31:32,712 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:31:32] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-03-11 22:31:32,751 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:31:32] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-03-11 22:31:32,825 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:31:32] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=0uzF6iNVkyzEBgGJwiSO HTTP/1.1" 200 -
+2026-03-11 22:31:32,838 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:31:32] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-03-11 22:40:51,821 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-11 22:40:51,822 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 22:40:55,844 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:40:55] "GET / HTTP/1.1" 200 -
+2026-03-11 22:40:55,941 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:40:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 22:42:24,831 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:42:24] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-03-11 22:42:24,884 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:42:24] "GET /status/88c5894a-6a5f-4712-8420-8b588d55f2de HTTP/1.1" 200 -
+2026-03-11 22:42:24,930 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:42:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 22:42:45,905 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:42:45] "GET /status/88c5894a-6a5f-4712-8420-8b588d55f2de HTTP/1.1" 200 -
+2026-03-11 22:42:45,945 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:42:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 22:42:48,901 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:42:48] "GET /status/88c5894a-6a5f-4712-8420-8b588d55f2de HTTP/1.1" 200 -
+2026-03-11 22:42:48,934 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:42:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 22:46:24,180 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-11 22:46:24,180 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 22:46:26,605 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:46:26] "GET / HTTP/1.1" 200 -
+2026-03-11 22:46:26,706 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:46:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 22:46:43,108 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:46:43] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-03-11 22:46:43,137 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:46:43] "GET /status/ea1a888d-2d01-4583-8fa7-df8e931785d6 HTTP/1.1" 200 -
+2026-03-11 22:46:43,176 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:46:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 22:51:55,336 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-11 22:51:55,337 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 22:51:56,487 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:51:56] "GET / HTTP/1.1" 200 -
+2026-03-11 22:51:56,564 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:51:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 22:52:07,567 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:52:07] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-03-11 22:52:07,617 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:52:07] "GET /status/20549987-1eb3-424b-960e-f93e38bc2c77 HTTP/1.1" 200 -
+2026-03-11 22:52:07,635 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:52:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 22:52:31,238 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:52:31] "GET /status/20549987-1eb3-424b-960e-f93e38bc2c77 HTTP/1.1" 200 -
+2026-03-11 22:52:31,256 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:52:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 22:55:29,591 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-11 22:55:29,591 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 22:55:32,669 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:55:32] "GET / HTTP/1.1" 200 -
+2026-03-11 22:55:32,744 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:55:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 22:56:36,350 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-11 22:56:36,350 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 22:56:38,334 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:56:38] "GET / HTTP/1.1" 200 -
+2026-03-11 22:56:38,392 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:56:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 22:57:09,289 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:57:09] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-03-11 22:57:09,312 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:57:09] "GET /status/5b743d85-2375-482b-8b86-493c184ca922 HTTP/1.1" 200 -
+2026-03-11 22:57:09,332 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:57:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 22:57:59,750 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-11 22:57:59,750 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 22:58:01,617 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:58:01] "GET / HTTP/1.1" 200 -
+2026-03-11 22:58:01,703 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 22:58:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:08:32,151 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-11 23:08:32,151 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 23:08:34,427 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:08:34] "GET / HTTP/1.1" 200 -
+2026-03-11 23:08:34,490 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:08:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:09:12,722 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:09:12] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-03-11 23:09:12,752 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:09:12] "GET /status/00bd3a40-4713-4c66-a89d-ee270436e48d HTTP/1.1" 200 -
+2026-03-11 23:09:12,780 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:09:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:21:15,032 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-11 23:21:15,033 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 23:21:19,526 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:21:19] "GET / HTTP/1.1" 200 -
+2026-03-11 23:21:19,679 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:21:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:22:02,447 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:22:02] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-03-11 23:22:02,482 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:22:02] "GET /status/ca4682d2-0bce-468f-974f-dc41b9c2b810 HTTP/1.1" 200 -
+2026-03-11 23:22:02,514 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:22:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:23:09,449 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:23:09] "GET / HTTP/1.1" 200 -
+2026-03-11 23:23:09,465 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:23:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:23:15,914 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:23:15] "GET / HTTP/1.1" 200 -
+2026-03-11 23:23:15,932 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:23:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:23:16,099 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:23:16] "GET / HTTP/1.1" 200 -
+2026-03-11 23:23:16,125 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:23:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:23:16,267 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:23:16] "GET / HTTP/1.1" 200 -
+2026-03-11 23:23:16,300 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:23:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:23:16,448 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:23:16] "GET / HTTP/1.1" 200 -
+2026-03-11 23:23:16,472 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:23:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:23:30,156 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:23:30] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-03-11 23:23:30,165 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:23:30] "GET /status/f039c0de-8bd6-4df0-93ae-d61281af634e HTTP/1.1" 200 -
+2026-03-11 23:23:30,184 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:23:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:24:15,889 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:24:15] "GET /status/f039c0de-8bd6-4df0-93ae-d61281af634e HTTP/1.1" 200 -
+2026-03-11 23:24:15,909 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:24:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:24:17,675 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:24:17] "GET /status/f039c0de-8bd6-4df0-93ae-d61281af634e HTTP/1.1" 200 -
+2026-03-11 23:24:17,695 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:24:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:26:40,302 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-11 23:26:40,303 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 23:26:44,906 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:26:44] "GET / HTTP/1.1" 200 -
+2026-03-11 23:26:44,983 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:26:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:27:40,563 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:27:40] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-03-11 23:27:40,592 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:27:40] "GET /status/551af392-07c2-4dad-a4e4-c6de04d24509 HTTP/1.1" 200 -
+2026-03-11 23:27:40,630 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:27:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:28:04,017 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:28:04] "GET /status/551af392-07c2-4dad-a4e4-c6de04d24509 HTTP/1.1" 200 -
+2026-03-11 23:28:04,039 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:28:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:28:04,666 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:28:04] "GET /status/551af392-07c2-4dad-a4e4-c6de04d24509 HTTP/1.1" 200 -
+2026-03-11 23:28:04,691 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:28:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:28:04,925 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:28:04] "GET /status/551af392-07c2-4dad-a4e4-c6de04d24509 HTTP/1.1" 200 -
+2026-03-11 23:28:04,949 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:28:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:28:05,166 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:28:05] "GET /status/551af392-07c2-4dad-a4e4-c6de04d24509 HTTP/1.1" 200 -
+2026-03-11 23:28:05,184 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:28:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:28:05,387 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:28:05] "GET /status/551af392-07c2-4dad-a4e4-c6de04d24509 HTTP/1.1" 200 -
+2026-03-11 23:28:05,416 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:28:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:29:02,127 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:29:02] "GET /status/551af392-07c2-4dad-a4e4-c6de04d24509 HTTP/1.1" 200 -
+2026-03-11 23:29:02,146 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:29:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:29:04,448 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:29:04] "GET / HTTP/1.1" 200 -
+2026-03-11 23:29:04,480 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:29:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:29:18,835 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-11 23:29:18,835 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 23:29:23,511 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:29:23] "GET / HTTP/1.1" 200 -
+2026-03-11 23:29:23,573 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:29:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:29:37,090 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:29:37] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-03-11 23:29:37,120 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:29:37] "GET /status/413d2dad-5b35-4e35-bebe-daedd0c8ac3d HTTP/1.1" 200 -
+2026-03-11 23:29:37,152 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:29:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:29:47,987 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:29:47] "GET /status/413d2dad-5b35-4e35-bebe-daedd0c8ac3d HTTP/1.1" 200 -
+2026-03-11 23:29:48,009 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:29:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:30:02,580 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:30:02] "GET /status/413d2dad-5b35-4e35-bebe-daedd0c8ac3d HTTP/1.1" 200 -
+2026-03-11 23:30:02,605 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:30:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:30:04,948 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:30:04] "GET / HTTP/1.1" 200 -
+2026-03-11 23:30:04,979 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:30:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:30:16,696 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:30:16] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-03-11 23:30:16,707 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:30:16] "GET /status/c5f178da-9515-4f9b-94f2-055cf7c20496 HTTP/1.1" 200 -
+2026-03-11 23:30:16,736 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:30:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:41:24,759 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-11 23:41:24,763 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 23:41:27,027 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:41:27] "GET / HTTP/1.1" 200 -
+2026-03-11 23:41:27,102 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:41:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:41:44,163 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:41:44] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-03-11 23:41:44,188 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:41:44] "GET /status/9a4731ba-2a28-4577-8076-6f3402c0561d HTTP/1.1" 200 -
+2026-03-11 23:41:44,226 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:41:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:41:47,378 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:41:47] "GET /status/9a4731ba-2a28-4577-8076-6f3402c0561d HTTP/1.1" 200 -
+2026-03-11 23:41:47,398 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:41:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:46:36,753 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:46:36] "GET /status/9a4731ba-2a28-4577-8076-6f3402c0561d HTTP/1.1" 200 -
+2026-03-11 23:46:36,781 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:46:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:46:50,589 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-11 23:46:50,589 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 23:46:53,082 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:46:53] "GET / HTTP/1.1" 200 -
+2026-03-11 23:46:53,147 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:46:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:47:04,673 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:47:04] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-03-11 23:47:04,712 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:47:04] "GET /status/e7358b98-ce93-4ff7-8012-e5c21ec03c6b HTTP/1.1" 200 -
+2026-03-11 23:47:04,738 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:47:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:49:13,516 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-11 23:49:13,516 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 23:49:15,823 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:49:15] "GET / HTTP/1.1" 200 -
+2026-03-11 23:49:15,891 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:49:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:49:25,021 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:49:25] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-03-11 23:49:25,045 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:49:25] "GET /status/4f1afb9e-038d-41d9-9422-ff0c656b92c9 HTTP/1.1" 200 -
+2026-03-11 23:49:25,080 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:49:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:49:40,084 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:49:40] "GET /status/4f1afb9e-038d-41d9-9422-ff0c656b92c9 HTTP/1.1" 200 -
+2026-03-11 23:49:40,117 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:49:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:49:41,680 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:49:41] "GET /status/4f1afb9e-038d-41d9-9422-ff0c656b92c9 HTTP/1.1" 200 -
+2026-03-11 23:49:41,709 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:49:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:52:49,030 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-11 23:52:49,030 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 23:52:50,355 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:52:50] "GET / HTTP/1.1" 200 -
+2026-03-11 23:52:50,416 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:52:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-11 23:53:01,334 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:53:01] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-03-11 23:53:01,360 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:53:01] "GET /status/5b368e92-dfcd-4678-a55e-7411133263a0 HTTP/1.1" 200 -
+2026-03-11 23:53:01,402 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2026 23:53:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-12 00:03:51,108 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-12 00:03:51,109 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-12 00:05:13,628 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-12 00:05:13,629 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-12 00:05:47,314 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-12 00:05:47,314 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-12 00:05:48,911 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:05:48] "GET / HTTP/1.1" 200 -
+2026-03-12 00:05:48,996 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:05:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-12 00:06:01,255 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:06:01] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-03-12 00:06:01,292 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:06:01] "GET /status/f1cc100e-59d8-4a00-9a1e-8f21d7010137 HTTP/1.1" 200 -
+2026-03-12 00:06:01,324 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:06:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-12 00:08:52,260 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-12 00:08:52,263 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-12 00:08:53,921 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:08:53] "GET / HTTP/1.1" 200 -
+2026-03-12 00:08:54,034 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:08:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-12 00:09:07,900 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:09:07] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-03-12 00:09:07,938 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:09:07] "GET /status/61f2ef4e-abf2-44bc-ae7c-d00a05ee0dbf HTTP/1.1" 200 -
+2026-03-12 00:09:07,966 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:09:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-12 00:17:00,430 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:17:00] "GET / HTTP/1.1" 200 -
+2026-03-12 00:17:00,459 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:17:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-12 00:17:17,544 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:17:17] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-03-12 00:17:17,578 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:17:17] "GET /status/90f656e3-8669-4e77-93d3-3a99f785cd42 HTTP/1.1" 200 -
+2026-03-12 00:17:17,621 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:17:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-12 00:20:39,795 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-12 00:20:39,795 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-12 00:20:41,839 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:20:41] "GET / HTTP/1.1" 200 -
+2026-03-12 00:20:41,918 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:20:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-12 00:21:04,409 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:21:04] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-03-12 00:21:04,444 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:21:04] "GET /status/8eb5b3ac-261e-47f2-b415-eedb10d24621 HTTP/1.1" 200 -
+2026-03-12 00:21:04,471 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:21:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-12 00:21:41,501 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:21:41] "GET /status/8eb5b3ac-261e-47f2-b415-eedb10d24621 HTTP/1.1" 200 -
+2026-03-12 00:21:41,530 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:21:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-12 00:21:41,553 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:21:41] "[35m[1mGET /images/images\\resized_8eb5b3ac-261e-47f2-b415-eedb10d24621_470x100.jpg HTTP/1.1[0m" 500 -
+2026-03-12 00:24:39,152 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-12 00:24:39,152 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-12 00:24:58,757 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:24:58] "GET / HTTP/1.1" 200 -
+2026-03-12 00:24:58,830 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:24:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-12 00:25:09,659 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:25:09] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-03-12 00:25:09,698 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:25:09] "GET /status/bb818379-8389-48a1-8fea-774718a47673 HTTP/1.1" 200 -
+2026-03-12 00:25:09,725 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:25:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-12 00:25:15,911 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:25:15] "GET /status/bb818379-8389-48a1-8fea-774718a47673 HTTP/1.1" 200 -
+2026-03-12 00:25:15,932 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:25:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-12 00:25:15,945 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:25:15] "[35m[1mGET /images/images\\resized_bb818379-8389-48a1-8fea-774718a47673_400x300.jpg HTTP/1.1[0m" 500 -
+2026-03-12 00:25:24,921 - werkzeug - INFO - 127.0.0.1 - - [12/Mar/2026 00:25:24] "[35m[1mGET /images/images\\resized_bb818379-8389-48a1-8fea-774718a47673_400x300.jpg HTTP/1.1[0m" 500 -

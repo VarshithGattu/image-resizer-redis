@@ -1,0 +1,4 @@
+Flask
+Pillow
+rq
+redis
