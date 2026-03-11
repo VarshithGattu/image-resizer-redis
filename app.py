@@ -80,10 +80,15 @@ def upload_file():
 
             # 4. Enqueue the job with Retry configuration (max 3 tries, 10-second interval)
             output_path = resize_image(input_path, width, height)
-            return render_template("status.html",
+            filename = os.path.basename(output_path)
+            return render_template(
+                                    "status.html",
                                     job_id="completed",
                                     status="finished",
-                                    result_path=output_path)
+                                    result_path=filename
+                                )
+
+
 
             # Redirect to a page that shows the job status
             return redirect(url_for('job_status', job_id=job.id))
@@ -129,5 +134,11 @@ if __name__ == '__main__':
         view_func=app.send_static_file,
         defaults={'root': os.path.abspath(UPLOAD_FOLDER)}
     )
+
+    from flask import send_from_directory
+
+    @app.route('/images/<path:filename>')
+    def images(filename):
+        return send_from_directory('images', filename)
     
     app.run(host="0.0.0.0", port=10000, debug=True, use_reloader=False)
